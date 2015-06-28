@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <title></title>
     <style>
-        .div1{
+        #div1{
             width: 200px;
             height: 200px;
-            background-color: yellow;
+            background-color: red;
             position: absolute;
+            left: 0;
+            top: 0;
         }
     </style>
     <script src="drag.js"></script>
 </head>
 <body>
-<div class="div1"></div>
+<div class="div1" id="div1"></div>
+<script>
+    drag("div1");
+</script>
 </body>
 </html>
